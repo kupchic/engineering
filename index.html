@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/swiper.css">
+    <link rel="stylesheet" href="./styles/jquery.fancybox.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="qustion">
+
+                <div class="header-inside">
+                    <button id="menu_btn" class="menu_button"></button>
+                    <label for="menu_btn"></label>
+                    <img src="./img/logo.png" alt="">
+                </div> 
+               
+                <div class="header-contacts">
+                    <div class="header-contacts_email">
+                        <h4>Пишите нам на email</h4>
+                        <a class="email_link" href="mailto:info@diagnistics.by">info@diagnistics.by</a>
+                    </div>
+                    <div class="header-contacts_tel">
+                        <h4>Есть вопросы? Звоните!</h4>
+                        <a class="tel_link" href="tel:+375294564545">+375 (29) 456-45-45</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="nav_list">
+            <ul>
+                <li class="pk_list"><a href="#serv">Услуги</a> </li>
+                <li class="pk_list">Комплекс работ</li>
+                <li class="pk_list">Команда</li>
+                <li class="pk_list">Отзывы</li>
+                <li class="pk_list">Стоимость</li>
+            </ul>
+            <div class="header-contacts header-contacts-mob">
+                <div class="header-contacts_email">
+                    <h4>Пишите нам на email</h4>
+                    <a class="email_link" href="mailto:info@diagnistics.by">info@diagnistics.by</a>
+                </div>
+                <div class="header-contacts_tel">
+                    <h4>Есть вопросы? Звоните!</h4>
+                    <a class="tel_link" href="tel:+375294564545">+375 (29) 456-45-45</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="header-content">
+                <div class="description">
+                    <h2 class="block-title header_title">Независимое обследование зданий и сооружений</h2>
+                    <p>антенн, труб, теплосетей, канализаций и других объектов строительства</p>
+                </div>
+                <div class="get_offer">
+                    <button class="offer_btn"><span id="downl_img"> Получить коммерческое</span></button>
+                    <p>Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в
+                        мессенджер</p>
+                </div>
+            </div>
+
+            <div class="offer-descripton">
+                <div class="offer_list">
+                    <div class="offer_item">
+                        <img src="./img/01 (Stroke).svg" alt="01">
+                        <p>Начинаем работать без аванса</p>
+                    </div>
+                    <div class="offer_item">
+                        <img src="./img/02 (Stroke).svg" alt="02">
+                        <p>Представляем отрочку платежа</p>
+                    </div>
+                    <div class="offer_item">
+                        <img src="./img/03 (Stroke).svg" alt="03">
+                        <p>Всегда называем справедливую цену</p>
+                    </div>
+                </div>
+                <a data-fancybox class="video_link" href="https://www.youtube.com/watch?v=ToC8rFFp88Y&list=PL8dPuuaLjXtO4A_tL6DLZRotxEb114cMR&index=1"><img src="./img/manInLink.png" alt="link"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages_content">
+                <div class="advantages__description">
+                    <h2 class="block-title">Мы работаем быстро <br> и наши отчеты проходят согласование с первого раза
+                    </h2>
+                    <p class="advatages__subtitle">Над вашим объектом работает целая команда: 3 ГИПа (главных инженеров
+                        проектов) с опытом работы от 6 лет и 2 штатных сотрудника для камеральных работ</p>
+                </div>
+                <div class="advantages__list">
+                    <h3>Вы и Ваши архитекторы получаете:</h3>
+                    <ul>
+                        <li>Отчет на который на 100% можно положиться</li>
+                        <li>Экономию времени и прогнозируемость сроков</li>
+                        <li>Предварительные результаты сразу на месте</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="serv" class="services">
+
+        <div class="services_content">
+            <h3 class="block-subtitle">Услуги</h3>
+            <h2 class="block-title services_title">Выполняем как комплексное обследование, так и отдельные виды работ</h2>
+            <div class="works-scroll" id="target">
+                <div class="scroll-block">
+                    <div class="works_item">
+                        <div class="img"> <img src="./img/work1.png" alt=""></div>
+                        <h2 class="work_name">Общее обследование</h2>
+                        <p class="work_description">Экспертиза отдельных конструкций, обмерные работы, определение
+                            прочности, расчет несущей способности и т.д.</p>
+                        <a href="#" class="more-info">Подробнее</a>
+                    </div>
+                    <div class="works_item">
+                        <div class="img"> <img src="./img/work2.png" alt=""></div>
+                        <h2 class="work_name">Тепловизионная съемка</h2>
+                        <p class="work_description">Исследование системы отопления, вентиляции и кондиционирования,
+                            а также оценка энергоэффективности здания </p>
+                        <a href="#" class="more-info">Подробнее</a>
+                    </div>
+                    <div class="works_item">
+                        <div class="img"> <img src="./img/work3.png" alt=""></div>
+                        <h2 class="work_name">Телеинспекция инженерных сетей</h2>
+                        <p class="work_description">Цветная телевизионная съемка внутренней <br> поверхности любых
+                            протяженных объектов до 250 метров</p>
+                        <a href="#" class="more-info">Подробнее</a>
+                    </div>
+                    <div class="works_item">
+                        <div class="img"> <img src="./img/work4.png" alt=""></div>
+                        <h2 class="work_name">Тахеометрическая съемка</h2>
+                        <p class="work_description">Построение чертежей при помощи лазера, который с точностью до
+                            микрона определяет расположение объектов в пространстве </p>
+                        <a href="#" class="more-info">Подробнее</a>
+                    </div>
+                    <div class="works_item">
+                        <div class="img"> <img src="./img/work5.png" alt=""></div>
+                        <h2 class="work_name">Диагностика вычотных сооружений</h2>
+                        <p class="work_description">Оценка состояния антенн и дымовых труб при помощи альпинистов и
+                            квадрокоптеров <br> с 30-кратным зумом</p>
+                        <a href="#" class="more-info">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div id="scroll-wrap">
+            <div id="progress_bar"></div>
+        </div>
+        <h2 class="step-title">Мы работаем в комплексе</h2>
+        <h3 class="step-subtitle">чтобы Вы не тратили время на поиск и организацию множества подрядчиков </h3>
+        <article class="step_one">
+            
+                <div class="swiper-container img_swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><div class="slider slide_one"></div></div>
+                        <div class="swiper-slide"><div class="slider slide_two"></div></div>
+                        <div class="swiper-slide">  <div class="slider slide_three"></div></div>
+                        <div class="swiper-slide">  <div class="slider slide_four"></div></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            <div class="step_about">
+                <div class="step_about_header">
+                    <div class="step_header title_row"><span class="step_icon">Шаг №1</span>
+                        <h2 class="title_step_block">Подготовительные работы</h2>
+                    </div>
+                    <p class="subtitle-step-block">Мы осматриваем здание, делаем замеры и проверяем наличие визуально
+                        заметных дефектов: трещин, коррозии, повреждения фундамента и т.д.</p>
+                </div>
+                <div class="person_coment">
+                    
+                         <img src="./img/manInLink.png" alt="person">
+                            <blockquote><q> “Задача этого этапа получить максимально полное представление о конструкции здания,
+                            условиях его эксплуатации и возможных слабых местах“</q></blockquote>
+                        <div class="author">АЛЕКСЕЙ, обследователь и главный инженер проектов</div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
