@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/swiper.css">
     <link rel="stylesheet" href="./styles/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./styles/lightbox.min.css">
 </head>
 
 <body>
@@ -20,8 +21,8 @@
                     <button id="menu_btn" class="menu_button"></button>
                     <label for="menu_btn"></label>
                     <img src="./img/logo.png" alt="">
-                </div> 
-               
+                </div>
+
                 <div class="header-contacts">
                     <div class="header-contacts_email">
                         <h4>Пишите нам на email</h4>
@@ -72,19 +73,21 @@
             <div class="offer-descripton">
                 <div class="offer_list">
                     <div class="offer_item">
-                        <img src="./img/01 (Stroke).svg" alt="01">
+                        <img src="./img/01.svg" alt="01">
                         <p>Начинаем работать без аванса</p>
                     </div>
                     <div class="offer_item">
-                        <img src="./img/02 (Stroke).svg" alt="02">
+                        <img src="./img/02.svg" alt="02">
                         <p>Представляем отрочку платежа</p>
                     </div>
                     <div class="offer_item">
-                        <img src="./img/03 (Stroke).svg" alt="03">
+                        <img src="./img/03.svg" alt="03">
                         <p>Всегда называем справедливую цену</p>
                     </div>
                 </div>
-                <a data-fancybox class="video_link" href="https://www.youtube.com/watch?v=ToC8rFFp88Y&list=PL8dPuuaLjXtO4A_tL6DLZRotxEb114cMR&index=1"><img src="./img/manInLink.png" alt="link"></a>
+                <a data-fancybox class="video_link"
+                    href="https://www.youtube.com/watch?v=ToC8rFFp88Y&list=PL8dPuuaLjXtO4A_tL6DLZRotxEb114cMR&index=1"><img
+                        src="./img/manInLink.png" alt="link"></a>
             </div>
         </div>
     </section>
@@ -114,7 +117,8 @@
 
         <div class="services_content">
             <h3 class="block-subtitle">Услуги</h3>
-            <h2 class="block-title services_title">Выполняем как комплексное обследование, так и отдельные виды работ</h2>
+            <h2 class="block-title services_title">Выполняем как комплексное обследование, так и отдельные виды работ
+            </h2>
             <div class="works-scroll" id="target">
                 <div class="scroll-block">
                     <div class="works_item">
@@ -164,19 +168,27 @@
         <h2 class="step-title">Мы работаем в комплексе</h2>
         <h3 class="step-subtitle">чтобы Вы не тратили время на поиск и организацию множества подрядчиков </h3>
         <article class="step_one">
-            
-                <div class="swiper-container img_swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide"><div class="slider slide_one"></div></div>
-                        <div class="swiper-slide"><div class="slider slide_two"></div></div>
-                        <div class="swiper-slide">  <div class="slider slide_three"></div></div>
-                        <div class="swiper-slide">  <div class="slider slide_four"></div></div>
+
+            <div class="swiper-container img_swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="slider slide_one"></div>
                     </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide">
+                        <div class="slider slide_two"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider slide_three"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider slide_four"></div>
+                    </div>
                 </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
             <div class="step_about">
                 <div class="step_about_header">
                     <div class="step_header title_row"><span class="step_icon">Шаг №1</span>
@@ -186,18 +198,156 @@
                         заметных дефектов: трещин, коррозии, повреждения фундамента и т.д.</p>
                 </div>
                 <div class="person_coment">
-                    
-                         <img src="./img/manInLink.png" alt="person">
-                            <blockquote><q> “Задача этого этапа получить максимально полное представление о конструкции здания,
+
+                    <img src="./img/manInLink.png" alt="person">
+                    <blockquote><q> “Задача этого этапа получить максимально полное представление о конструкции здания,
                             условиях его эксплуатации и возможных слабых местах“</q></blockquote>
-                        <div class="author">АЛЕКСЕЙ, обследователь и главный инженер проектов</div>
+                    <div class="author">АЛЕКСЕЙ, обследователь и главный инженер проектов</div>
                 </div>
             </div>
         </article>
+        <article class="step_two">
+            <div class="step_about_header title_column">
+                <span class="step_icon">Шаг №2</span>
+                <h2 class="title_step_block">Детальное инструментальное обследование</h2>
+                <p class="subtitle-step-block">
+                    Мы понимаем насколько важны сроки и сколько может стоить день задержки. Поэтому Вы никогда не
+                    услышите от нас слов “надо подождать пару дней, пока освободится арендное оборудование” - мы
+                    укомплектованы всем необходимым
+                </p>
+            </div>
+        </article>
+        <article class="step_three">
+            <div class="step_three_content">
+                <div class="step_about_header">
+                    <div class="step_header"><span class="step_icon">Шаг №3</span>
+                        <h2 class="title_step_block">Обработка полученных данных</h2>
+                    </div>
+                    <p class="subtitle-step-block">Детальный отчет с <a class="step_three_result" href="#"
+                            target="_blank">результатами обследования</a> <br> Вы получите через 7 дней. И на его
+                        основании сможете определить судьбу объекта и прогнозировать затраты</p>
+                    <ul class="step_three_list">
+                        <li>Мы оценим техническое состояние объекта и присвоим ему категорию</li>
+                        <li>Объясним причины появления дефектов и повреждений в конструкциях</li>
+                        <li>Сформируем техзадание на проектирование мероприятий по восстановлению, усилению или ремонту
+                            конструкций, оборудования и сетей</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="step_three_pic"></div>
+        </article>
     </section>
+    <section class="present">
+        <div class="container">
+            <article class="present_content">
+                <div class="present_description">
+                    <h2 class="block-title">
+                        Закажите комплексное обследование и получите тепловизионную съемку <br> <span
+                            style="color:#FEE040;">в подарок</span>
+                    </h2>
+                </div>
+                <div class="present_description">
+                    <p>Мы первая в Беларуси компания в составе которой есть аккредитованная тепловизионная лаборатория.
+                        <br> <br> Наши аттестованные термографисты найдут утечки тепла, определят скрытые дефекты
+                        конструкции и подберут систему утепления, которую выдержат стены.</p>
+                </div>
+                <div class="present_description third_block">
+                    <button class="offer_btn order_present"><span id="downl_img"> Получить коммерческое</span></button>
+                    <p class="btn_function">Отправьте техзадание и получите коммерческое предложение в течение 15 минут
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="team">
+        <div class="container">
+            <div class="team-content">
+                <div class="team_logo">команда</div>
+                <div class="team_goal">
+                    <h2 class="block-title">Наша главная ценность - это кадровый состав</h2>
+                    <p>
+                        За каждым отчетом стоят люди, которые берут на себя колоссальную ответственность. Поэтому <span
+                            style="color:black; font-weight:800">мы не готовы “просто подписать бумажку”</span> <br>
+                        <br>
+                        Наши обследователи - это аттестованные ГИПы (главные инженеры проектов), главные конструктора,
+                        инженеры, термографисты и альпинисты, которые подтверждают свою квалификацию на стажировках и
+                        курсах по 3-4 раза в году.
+                    </p>
+                    <div class="swiper-container-team">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="picSlide">
+                                    <a data-lightbox="docs" href="./img/doc_1.jpg">
+                                        <img src="./img/doc_1.jpg" alt="doc1">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="picSlide">
+                                    <a data-lightbox="docs" href="./img/doc_2.jpg">
+                                        <img src="./img/doc_2.jpg" alt="doc1">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="picSlide">
+                                    <a data-lightbox="docs" href="./img/doc_1.jpg">
+                                        <img src="./img/doc_1.jpg" alt="doc1">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="picSlide">
+                                    <a data-lightbox="docs" href="./img/doc_2.jpg">
+                                        <img src="./img/doc_2.jpg" alt="doc1">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="picSlide">
+                                    <a data-lightbox="docs" href="./img/doc_1.jpg">
+                                        <img src="./img/doc_1.jpg" alt="doc1">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="picSlide">
+                                    <a data-lightbox="docs" href="./img/doc_2.jpg">
+                                        <img src="./img/doc_2.jpg" alt="doc1">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="picSlide">
+                                    <a data-lightbox="docs" href="./img/doc_1.jpg">
+                                        <img src="./img/doc_1.jpg" alt="doc1">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="picSlide">
+                                    <a data-lightbox="docs" href="./img/doc_2.jpg">
+                                        <img src="./img/doc_2.jpg" alt="doc1">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="./js/jquery.fancybox.min.js"></script>
-    <script src="./js/swiper.min.js"></script>
+    <script src="./js/swiper.min.js"></script>\
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 

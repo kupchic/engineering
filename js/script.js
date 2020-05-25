@@ -52,3 +52,21 @@ menuButton.addEventListener('click', function () {
     menuButton.classList.remove('menu_button_active');
   }); 
 });
+
+var mySwiper = new Swiper('.swiper-container-team', {
+  speed: 400,
+  spaceBetween: 0,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  slidesPerView:5,
+
+});
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true,
+  'disableScrolling':true,
+});
+
+
