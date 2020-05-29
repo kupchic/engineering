@@ -374,7 +374,7 @@ label[for="menu_btn"] {
   margin-top: 15px;
 }
 
-#downl_img {
+.downl_img {
   background-image: url(../img/download_logo.svg);
   background-position: left center;
   background-repeat: no-repeat;
@@ -971,7 +971,7 @@ label[for="menu_btn"] {
 }
 
 .products figure figcaption {
-  margin-top: 40px;
+  margin: 40px 20px 0;
   font-size: 16px;
   line-height: 22px;
   text-align: center;
@@ -1660,7 +1660,8 @@ label[for="menu_btn"] {
   .footer_contacts:nth-child(n) > div {
     margin: 0 5px 30px;
   }
-  .footer_contacts:nth-child(n) h4, .footer_contacts:nth-child(n) a {
+  .footer_contacts:nth-child(n) h4,
+  .footer_contacts:nth-child(n) a {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1742,7 +1743,6 @@ label[for="menu_btn"] {
     background: whitesmoke;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 245, 245, 0)), color-stop(15%, rgba(245, 245, 245, 0)), color-stop(15%, whitesmoke), to(whitesmoke));
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, rgba(245, 245, 245, 0) 15%, whitesmoke 15%, whitesmoke 100%);
-    padding-bottom: 40px;
   }
   .products:nth-child(n + 1) {
     padding-right: 20px;
@@ -1949,10 +1949,6 @@ label[for="menu_btn"] {
   .services {
     height: 700px;
     padding: 60px 0 30px;
-  }
-  .block-title {
-    font-size: 20px;
-    line-height: 24px;
   }
   .header_title {
     font-size: 40px;

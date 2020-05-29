@@ -314,7 +314,7 @@ label[for="menu_btn"] {
   margin-top: 15px;
 }
 
-#downl_img {
+.downl_img {
   background-image: url(../img/download_logo.svg);
   background-position: left center;
   background-repeat: no-repeat;
@@ -839,7 +839,7 @@ label[for="menu_btn"] {
       }
     }
     figcaption {
-      margin-top: 40px;
+      margin: 40px 20px 0;
       font-size: 16px;
       line-height: 22px;
       text-align: center;
@@ -1442,21 +1442,21 @@ label[for="menu_btn"] {
   .footer .rights {
     order: 2;
     margin: 0 auto;
-    P{
+    P {
       text-align: center;
     }
-}
-  .footer_contacts{
+  }
+  .footer_contacts {
     order: 1;
     margin: 0 auto 30px;
     justify-content: center;
-    &:nth-child(n){
-      >div{
-        
-        margin :0 5px 30px;
+    &:nth-child(n) {
+      > div {
+        margin: 0 5px 30px;
       }
-      h4,a{
-        align-self:center;
+      h4,
+      a {
+        align-self: center;
       }
     }
   }
@@ -1541,8 +1541,6 @@ label[for="menu_btn"] {
       rgba(245, 245, 245, 1) 15%,
       rgba(245, 245, 245, 1) 100%
     );
-
-    padding-bottom: 40px;
   }
   .products {
     &:nth-child(n + 1) {
@@ -1597,7 +1595,7 @@ label[for="menu_btn"] {
       margin: 0 auto 50px;
     }
   }
-  .certificates{
+  .certificates {
     grid-template-columns: 1fr 1fr;
   }
   .offer_list {
@@ -1743,11 +1741,6 @@ label[for="menu_btn"] {
     padding: 60px 0 30px;
   }
 
-  .block-title {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
   .header_title {
     font-size: 40px;
     line-height: 42px;
@@ -1862,25 +1855,25 @@ label[for="menu_btn"] {
   .header-content {
     margin-top: 80px;
   }
-  .reviews{
+  .reviews {
     padding: 100px 30px;
   }
-  .certificates{
+  .certificates {
     grid-template-columns: 1fr;
     max-width: 85%;
     margin: 0 auto;
   }
-  .knowledge_price{
+  .knowledge_price {
     padding: 100px 30px;
   }
 
-  .footer{
+  .footer {
     padding: 45px 30px;
   }
-  .reviews_content p{
+  .reviews_content p {
     text-align: justify;
   }
-  .home_footer_link{
+  .home_footer_link {
     font-size: 14px;
   }
 }
