@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* Элемент точки */
+.slick-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-nav {
+  position: relative;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.picSlideAlone {
+  width: 25%;
+  height: 100%;
+}
+
+.picSlideAlone img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.picSlideNav {
+  width: 132px;
+  height: 185px;
+  border-radius: 4px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.picSlideNav:last-of-type {
+  margin-right: 0;
+}
+
+.picSlideNav img {
+  border-radius: 4px;
+}
+
+.picSlideNav a:hover:after {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FEE040), to(#2F80ED)), url(../img/zoom_logo.png);
+  background-image: linear-gradient(180deg, #FEE040 0%, #2F80ED 100%), url(../img/zoom_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: color;
+  border-radius: 4px;
+}
+
+.picSlideNav.slick-current {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #2F80ED;
+}
+
+.slider-for-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 480px;
+  height: 100%;
+  margin-left: 40px;
+}
+
+.slider-nav-wrp {
+  position: relative;
+  min-width: 270px;
+  max-width: 700px;
+}
+
+.btn-prev,
+.btn-next, .btn-prev-product, .btn-next-product {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(101.67deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%), #F2C94C;
+  z-index: 10;
+  background-image: url(../img/arrow_next.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.btn-prev, .btn-prev-product {
+  -webkit-transform: translate(-50%, -50%) rotate(-180deg);
+          transform: translate(-50%, -50%) rotate(-180deg);
+  top: 50%;
+  left: 0;
+}
+
+.btn-next, .btn-next-product {
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  top: 50%;
+  right: 0px;
+}
+
+.slider-product-wrp {
+  position: relative;
+}
+
+.slider-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.slick-pagination-bullet {
+  width: 20px;
+  height: 2px;
+  opacity: 0.5;
+  border-radius: 10px;
+  background-color: #cccccc;
+}
+
+.slick-pagination-bullet-active {
+  width: 40px;
+  background-color: #FEE040;
+  opacity: 1;
+}
+
+@media (max-width: 1025px) {
+  .btn-next-product {
+    right: 20px;
+  }
+}
+
+@media (max-width: 805px) {
+  .btn-next-product {
+    right: 0px;
+  }
+}
+
+@media (max-width: 470px) {
+  .slider-nav-wrp {
+    min-width: 250px;
+  }
+}
+/*# sourceMappingURL=slick-style.css.map */

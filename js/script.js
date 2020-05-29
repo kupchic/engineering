@@ -59,3 +59,56 @@ lightbox.option({
   'disableScrolling':true,
 });
 
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  asNavFor: '.slider-nav',
+  swipe:false,
+  draggable:false,
+  centerMode: false,
+  fade:true
+});
+$('.slider-nav').slick({
+  variableWidth: true,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  centerMode: false,
+  focusOnSelect: true,
+  infinite:true,
+  swipe:false,
+  draggable:false,
+  prevArrow:'.btn-prev',
+  nextArrow:'.btn-next'
+
+});
+$('.slider-product').slick({
+  variableWidth: true,
+  slidesToScroll: 1,
+  centerMode: false,
+  focusOnSelect: true,
+  prevArrow:'.btn-prev-product',
+  nextArrow:'.btn-next-product',
+  // dots:true,
+  
+  responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToScroll: 1,
+        slidesToShow: 2,
+        variableWidth: false,
+        //centerMode: true,
+      }
+    },
+    {
+      breakpoint: 805,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        variableWidth: false,
+      }
+    }
+  ]
+  
+  });

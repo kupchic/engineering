@@ -2,588 +2,590 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Engineering</title>
-	<link rel="stylesheet" href="./styles/styles.css" />
-	<link rel="stylesheet" href="./styles/reset.css" />
-	<link rel="stylesheet" href="./styles/swiper.css" />
-	<link rel="stylesheet" href="./styles/jquery.fancybox.min.css" />
-	<link rel="stylesheet" href="./styles/lightbox.min.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engineering</title>
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/swiper.css" />
+  <link rel="stylesheet" href="./styles/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="./styles/lightbox.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./styles/slick-style.css">
+  <link rel="stylesheet" href="./styles/styles.css" />
+
 </head>
 
 <body>
-	<header id="header">
-		<div class="container">
-			<div class="qustion">
-				<div class="header-inside">
-					<button id="menu_btn" class="menu_button"></button>
-					<label for="menu_btn"></label>
-					<img src="./img/logo.png" alt="" />
-				</div>
+  <header id="header">
+    <div class="container">
+      <div class="qustion">
+        <div class="header-inside">
+          <button id="menu_btn" class="menu_button"></button>
+          <label for="menu_btn"></label>
+          <img src="./img/logo.png" alt="" />
+        </div>
 
-				<div class="header-contacts">
-					<div class="header-contacts_email">
-						<h4>Пишите нам на email</h4>
-						<a class="email_link" href="mailto:info@diagnistics.by">info@diagnistics.by</a>
-					</div>
-					<div class="header-contacts_tel">
-						<h4>Есть вопросы? Звоните!</h4>
-						<a class="tel_link" href="tel:+375294564545">+375 (29) 456-45-45</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<nav class="nav_list">
-			<ul>
-				<li class="pk_list"><a href="#serv">Услуги</a></li>
-				<li class="pk_list">Комплекс работ</li>
-				<li class="pk_list">Команда</li>
-				<li class="pk_list">Отзывы</li>
-				<li class="pk_list">Стоимость</li>
-			</ul>
-			<div class="header-contacts header-contacts-mob">
-				<div class="header-contacts_email">
-					<h4>Пишите нам на email</h4>
-					<a class="email_link" href="mailto:info@diagnistics.by">info@diagnistics.by</a>
-				</div>
-				<div class="header-contacts_tel">
-					<h4>Есть вопросы? Звоните!</h4>
-					<a class="tel_link" href="tel:+375294564545">+375 (29) 456-45-45</a>
-				</div>
-			</div>
-		</nav>
-	</header>
+        <div class="header-contacts">
+          <div class="header-contacts_email">
+            <h4>Пишите нам на email</h4>
+            <a class="email_link" href="mailto:info@diagnistics.by">info@diagnistics.by</a>
+          </div>
+          <div class="header-contacts_tel">
+            <h4>Есть вопросы? Звоните!</h4>
+            <a class="tel_link" href="tel:+375294564545">+375 (29) 456-45-45</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="nav_list">
+      <ul>
+        <li class="pk_list"><a href="#serv">Услуги</a></li>
+        <li class="pk_list"><a href="#complex"> Комплекс работ</a></li>
+        <li class="pk_list"><a href="#team">Команда</a> </li>
+        <li class="pk_list"><a href="#reviews">Отзывы</a></li>
+        <li class="pk_list"> <a href="#price">Стоимость</a> </li>
+      </ul>
+      <div class="header-contacts header-contacts-mob">
+        <div class="header-contacts_email">
+          <h4>Пишите нам на email</h4>
+          <a class="email_link" href="mailto:info@diagnistics.by">info@diagnistics.by</a>
+        </div>
+        <div class="header-contacts_tel">
+          <h4>Есть вопросы? Звоните!</h4>
+          <a class="tel_link" href="tel:+375294564545">+375 (29) 456-45-45</a>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-	<section class="hero">
-		<div class="container">
-			<div class="header-content">
-				<div class="description">
-					<h2 class="block-title header_title">
-						Независимое обследование зданий и сооружений
-					</h2>
-					<p>
-						антенн, труб, теплосетей, канализаций и других объектов
-						строительства
-					</p>
-				</div>
-				<div class="get_offer">
-					<button class="offer_btn">
-						<span id="downl_img"> Получить коммерческое</span>
-					</button>
-					<p>
-						Отправьте техзадание и получите коммерческое предложение в течении
-						15 минут на свой email или в мессенджер
-					</p>
-				</div>
-			</div>
+  <section class="hero">
+    <div class="container">
+      <div class="header-content">
+        <div class="description">
+          <h2 class="block-title header_title">
+            Независимое обследование зданий и сооружений
+          </h2>
+          <p>
+            антенн, труб, теплосетей, канализаций и других объектов
+            строительства
+          </p>
+        </div>
+        <div class="get_offer">
+          <button class="offer_btn">
+            <span id="downl_img"> Получить коммерческое</span>
+          </button>
+          <p>
+            Отправьте техзадание и получите коммерческое предложение в течении
+            15 минут на свой email или в мессенджер
+          </p>
+        </div>
+      </div>
 
-			<div class="offer-descripton">
-				<div class="offer_list">
-					<div class="offer_item">
-						<img src="./img/01.svg" alt="01" />
-						<p>Начинаем работать без аванса</p>
-					</div>
-					<div class="offer_item">
-						<img src="./img/02.svg" alt="02" />
-						<p>Представляем отрочку платежа</p>
-					</div>
-					<div class="offer_item">
-						<img src="./img/03.svg" alt="03" />
-						<p>Всегда называем справедливую цену</p>
-					</div>
-				</div>
-				<a data-fancybox class="video_link"
-					href="https://www.youtube.com/watch?v=ToC8rFFp88Y&list=PL8dPuuaLjXtO4A_tL6DLZRotxEb114cMR&index=1"><img
-						src="./img/manInLink.png" alt="link" /></a>
-			</div>
-		</div>
-	</section>
+      <div class="offer-descripton">
+        <div class="offer_list">
+          <div class="offer_item">
+            <img src="./img/01.svg" alt="01" />
+            <p>Начинаем работать без аванса</p>
+          </div>
+          <div class="offer_item">
+            <img src="./img/02.svg" alt="02" />
+            <p>Представляем отрочку платежа</p>
+          </div>
+          <div class="offer_item">
+            <img src="./img/03.svg" alt="03" />
+            <p>Всегда называем справедливую цену</p>
+          </div>
+        </div>
+        <a data-fancybox class="video_link"
+          href="https://www.youtube.com/watch?v=ToC8rFFp88Y&list=PL8dPuuaLjXtO4A_tL6DLZRotxEb114cMR&index=1"><img
+            src="./img/manInLink.png" alt="link" /></a>
+      </div>
+    </div>
+  </section>
 
-	<section class="advantages">
-		<div class="container">
-			<div class="advantages_content">
-				<div class="advantages__description">
-					<h2 class="block-title">
-						Мы работаем быстро <br />
-						и наши отчеты проходят согласование с первого раза
-					</h2>
-					<p class="advatages__subtitle">
-						Над вашим объектом работает целая команда: 3 ГИПа (главных
-						инженеров проектов) с опытом работы от 6 лет и 2 штатных
-						сотрудника для камеральных работ
-					</p>
-				</div>
-				<div class="advantages__list">
-					<h3>Вы и Ваши архитекторы получаете:</h3>
-					<ul>
-						<li>Отчет на который на 100% можно положиться</li>
-						<li>Экономию времени и прогнозируемость сроков</li>
-						<li>Предварительные результаты сразу на месте</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages_content">
+        <div class="advantages__description">
+          <h2 class="block-title">
+            Мы работаем быстро <br />
+            и наши отчеты проходят согласование с первого раза
+          </h2>
+          <p class="advatages__subtitle">
+            Над вашим объектом работает целая команда: 3 ГИПа (главных
+            инженеров проектов) с опытом работы от 6 лет и 2 штатных
+            сотрудника для камеральных работ
+          </p>
+        </div>
+        <div class="advantages__list">
+          <h3>Вы и Ваши архитекторы получаете:</h3>
+          <ul>
+            <li>Отчет на который на 100% можно положиться</li>
+            <li>Экономию времени и прогнозируемость сроков</li>
+            <li>Предварительные результаты сразу на месте</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<section id="serv" class="services">
-		<div class="services_content">
-			<h3 class="block-subtitle">Услуги</h3>
-			<h2 class="block-title services_title">
-				Выполняем как комплексное обследование, так и отдельные виды работ
-			</h2>
-			<div class="works-scroll" id="target">
-				<div class="scroll-block">
-					<div class="works_item">
-						<div class="img"><img src="./img/work1.png" alt="" /></div>
-						<h2 class="work_name">Общее обследование</h2>
-						<p class="work_description">
-							Экспертиза отдельных конструкций, обмерные работы, определение
-							прочности, расчет несущей способности и т.д.
-						</p>
-						<a href="#" class="more-info">Подробнее</a>
-					</div>
-					<div class="works_item">
-						<div class="img"><img src="./img/work2.png" alt="" /></div>
-						<h2 class="work_name">Тепловизионная съемка</h2>
-						<p class="work_description">
-							Исследование системы отопления, вентиляции и кондиционирования,
-							а также оценка энергоэффективности здания
-						</p>
-						<a href="#" class="more-info">Подробнее</a>
-					</div>
-					<div class="works_item">
-						<div class="img"><img src="./img/work3.png" alt="" /></div>
-						<h2 class="work_name">Телеинспекция инженерных сетей</h2>
-						<p class="work_description">
-							Цветная телевизионная съемка внутренней <br />
-							поверхности любых протяженных объектов до 250 метров
-						</p>
-						<a href="#" class="more-info">Подробнее</a>
-					</div>
-					<div class="works_item">
-						<div class="img"><img src="./img/work4.png" alt="" /></div>
-						<h2 class="work_name">Тахеометрическая съемка</h2>
-						<p class="work_description">
-							Построение чертежей при помощи лазера, который с точностью до
-							микрона определяет расположение объектов в пространстве
-						</p>
-						<a href="#" class="more-info">Подробнее</a>
-					</div>
-					<div class="works_item">
-						<div class="img"><img src="./img/work5.png" alt="" /></div>
-						<h2 class="work_name">Диагностика вычотных сооружений</h2>
-						<p class="work_description">
-							Оценка состояния антенн и дымовых труб при помощи альпинистов и
-							квадрокоптеров <br />
-							с 30-кратным зумом
-						</p>
-						<a href="#" class="more-info">Подробнее</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+  <section id="serv" class="services">
+    <div class="services_content">
+      <h3 class="block-subtitle">Услуги</h3>
+      <h2 class="block-title services_title">
+        Выполняем как комплексное обследование, так и отдельные виды работ
+      </h2>
+      <div class="works-scroll" id="target">
+        <div class="scroll-block">
+          <div class="works_item">
+            <div class="img"><img src="./img/work1.png" alt="" /></div>
+            <h2 class="work_name">Общее обследование</h2>
+            <p class="work_description">
+              Экспертиза отдельных конструкций, обмерные работы, определение
+              прочности, расчет несущей способности и т.д.
+            </p>
+            <a href="#" class="more-info">Подробнее</a>
+          </div>
+          <div class="works_item">
+            <div class="img"><img src="./img/work2.png" alt="" /></div>
+            <h2 class="work_name">Тепловизионная съемка</h2>
+            <p class="work_description">
+              Исследование системы отопления, вентиляции и кондиционирования,
+              а также оценка энергоэффективности здания
+            </p>
+            <a href="#" class="more-info">Подробнее</a>
+          </div>
+          <div class="works_item">
+            <div class="img"><img src="./img/work3.png" alt="" /></div>
+            <h2 class="work_name">Телеинспекция инженерных сетей</h2>
+            <p class="work_description">
+              Цветная телевизионная съемка внутренней <br />
+              поверхности любых протяженных объектов до 250 метров
+            </p>
+            <a href="#" class="more-info">Подробнее</a>
+          </div>
+          <div class="works_item">
+            <div class="img"><img src="./img/work4.png" alt="" /></div>
+            <h2 class="work_name">Тахеометрическая съемка</h2>
+            <p class="work_description">
+              Построение чертежей при помощи лазера, который с точностью до
+              микрона определяет расположение объектов в пространстве
+            </p>
+            <a href="#" class="more-info">Подробнее</a>
+          </div>
+          <div class="works_item">
+            <div class="img"><img src="./img/work5.png" alt="" /></div>
+            <h2 class="work_name">Диагностика вычотных сооружений</h2>
+            <p class="work_description">
+              Оценка состояния антенн и дымовых труб при помощи альпинистов и
+              квадрокоптеров <br />
+              с 30-кратным зумом
+            </p>
+            <a href="#" class="more-info">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<section class="steps">
-		<div id="scroll-wrap">
-			<div id="progress_bar"></div>
-		</div>
-		<h2 class="step-title">Мы работаем в комплексе</h2>
-		<h3 class="step-subtitle">
-			чтобы Вы не тратили время на поиск и организацию множества подрядчиков
-		</h3>
-		<article class="step_one">
-			<div class="swiper-container img_swiper">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper">
-					<!-- Slides -->
-					<div class="swiper-slide">
-						<div class="slider slide_one"></div>
-					</div>
-					<div class="swiper-slide">
-						<div class="slider slide_two"></div>
-					</div>
-					<div class="swiper-slide">
-						<div class="slider slide_three"></div>
-					</div>
-					<div class="swiper-slide">
-						<div class="slider slide_four"></div>
-					</div>
-				</div>
-				<!-- If we need pagination -->
-				<div class="swiper-pagination"></div>
-			</div>
-			<div class="step_about">
-				<div class="step_about_header">
-					<div class="step_header title_row">
-						<span class="step_icon">Шаг №1</span>
-						<h2 class="title_step_block">Подготовительные работы</h2>
-					</div>
-					<p class="subtitle-step-block">
-						Мы осматриваем здание, делаем замеры и проверяем наличие визуально
-						заметных дефектов: трещин, коррозии, повреждения фундамента и т.д.
-					</p>
-				</div>
-				<div class="person_coment">
-					<img src="./img/manInLink.png" alt="person" />
-					<blockquote>
-						<q>
-							“Задача этого этапа получить максимально полное представление о
-							конструкции здания, условиях его эксплуатации и возможных слабых
-							местах“</q>
-					</blockquote>
-					<div class="author">
-						АЛЕКСЕЙ, обследователь и главный инженер проектов
-					</div>
-				</div>
-			</div>
-		</article>
-		<article class="step_two">
-			<div class="step_about_header title_column">
-				<span class="step_icon">Шаг №2</span>
-				<h2 class="title_step_block">
-					Детальное инструментальное обследование
-				</h2>
-				<p class="subtitle-step-block">
-					Мы понимаем насколько важны сроки и сколько может стоить день
-					задержки. Поэтому Вы никогда не услышите от нас слов “надо подождать
-					пару дней, пока освободится арендное оборудование” - мы
-					укомплектованы всем необходимым
-				</p>
-			</div>
-		</article>
-		<article class="step_three">
-			<div class="step_three_content">
-				<div class="step_about_header">
-					<div class="step_header">
-						<span class="step_icon">Шаг №3</span>
-						<h2 class="title_step_block">Обработка полученных данных</h2>
-					</div>
-					<p class="subtitle-step-block">
-						Детальный отчет с
-						<a class="step_three_result" href="#" target="_blank">результатами обследования</a>
-						<br />
-						Вы получите через 7 дней. И на его основании сможете определить
-						судьбу объекта и прогнозировать затраты
-					</p>
-					<ul class="step_three_list">
-						<li>
-							Мы оценим техническое состояние объекта и присвоим ему категорию
-						</li>
-						<li>
-							Объясним причины появления дефектов и повреждений в конструкциях
-						</li>
-						<li>
-							Сформируем техзадание на проектирование мероприятий по
-							восстановлению, усилению или ремонту конструкций, оборудования и
-							сетей
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="step_three_pic"></div>
-		</article>
-	</section>
-	<section class="present">
-		<div class="container">
-			<article class="present_content">
-				<div class="present_description">
-					<h2 class="block-title">
-						Закажите комплексное обследование и получите тепловизионную съемку
-						<br />
-						<span style="color: #fee040;">в подарок</span>
-					</h2>
-				</div>
-				<div class="present_description">
-					<p>
-						Мы первая в Беларуси компания в составе которой есть
-						аккредитованная тепловизионная лаборатория. <br />
-						<br />
-						Наши аттестованные термографисты найдут утечки тепла, определят
-						скрытые дефекты конструкции и подберут систему утепления, которую
-						выдержат стены.
-					</p>
-				</div>
-				<div class="present_description third_block">
-					<button class="offer_btn order_present">
-						<span id="downl_img"> Получить коммерческое</span>
-					</button>
-					<p class="btn_function">
-						Отправьте техзадание и получите коммерческое предложение в течение
-						15 минут
-					</p>
-				</div>
-			</article>
-		</div>
-	</section>
-	<section class="team">
-		<div class="container">
-			<div class="team-content">
-				<div class="team_logo">команда</div>
-				<div class="team_goal">
-					<h2 class="block-title">
-						Наша главная ценность - это кадровый состав
-					</h2>
-					<p>
-						За каждым отчетом стоят люди, которые берут на себя колоссальную
-						ответственность. Поэтому
-						<span style="color: black; font-weight: 800;">мы не готовы “просто подписать бумажку”</span>
-						<br />
-						<br />
-						Наши обследователи - это аттестованные ГИПы (главные инженеры
-						проектов), главные конструктора, инженеры, термографисты и
-						альпинисты, которые подтверждают свою квалификацию на стажировках
-						и курсах по 3-4 раза в году.
-					</p>
-
-					<!-- <div class="swiper-container-alone">
-                        
-                        <div class="swiper-wrapper">
-                            
-                            <div class="swiper-slide">
-                                <div class="picSlideAlone">
-                                    <a data-lightbox="docs" href="./img/doc_1.jpg">
-                                        <img src="./img/doc_1.jpg" alt="doc1" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="picSlideAlone">
-                                    <a data-lightbox="docs" href="./img/doc_2.jpg">
-                                        <img src="./img/doc_2.jpg" alt="doc1" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="picSlideAlone">
-                                    <a data-lightbox="docs" href="./img/doc_1.jpg">
-                                        <img src="./img/doc_1.jpg" alt="doc1" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="picSlideAlone">
-                                    <a data-lightbox="docs" href="./img/doc_2.jpg">
-                                        <img src="./img/doc_2.jpg" alt="doc1" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="picSlideAlone">
-                                    <a data-lightbox="docs" href="./img/doc_1.jpg">
-                                        <img src="./img/doc_1.jpg" alt="doc1" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="picSlideAlone">
-                                    <a data-lightbox="docs" href="./img/doc_2.jpg">
-                                        <img src="./img/doc_2.jpg" alt="doc1" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="picSlideAlone">
-                                    <a data-lightbox="docs" href="./img/doc_1.jpg">
-                                        <img src="./img/doc_1.jpg" alt="doc1" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="picSlideAlone">
-                                    <a data-lightbox="docs" href="./img/doc_2.jpg">
-                                        <img src="./img/doc_2.jpg" alt="doc1" />
-                                    </a>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-                        
-                    </div>
-                    
-                    <div class="swiper-team">
-                            <div class="swiper-wrapper">
-                                
-                                <div class="swiper-slide">
-                                    <div class="picSlide">
-                                        <a data-lightbox="docs" href="./img/doc_1.jpg">
-                                            <img src="./img/doc_1.jpg" alt="doc1" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="picSlide">
-                                        <a data-lightbox="docs" href="./img/doc_2.jpg">
-                                            <img src="./img/doc_2.jpg" alt="doc1" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="picSlide">
-                                        <a data-lightbox="docs" href="./img/doc_1.jpg">
-                                            <img src="./img/doc_1.jpg" alt="doc1" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="picSlide">
-                                        <a data-lightbox="docs" href="./img/doc_2.jpg">
-                                            <img src="./img/doc_2.jpg" alt="doc1" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="picSlide">
-                                        <a data-lightbox="docs" href="./img/doc_1.jpg">
-                                            <img src="./img/doc_1.jpg" alt="doc1" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="picSlide">
-                                        <a data-lightbox="docs" href="./img/doc_2.jpg">
-                                            <img src="./img/doc_2.jpg" alt="doc1" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="picSlide">
-                                        <a data-lightbox="docs" href="./img/doc_1.jpg">
-                                            <img src="./img/doc_1.jpg" alt="doc1" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="picSlide">
-                                        <a data-lightbox="docs" href="./img/doc_2.jpg">
-                                            <img src="./img/doc_2.jpg" alt="doc1" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        <div class="swiper_btn_active_next"></div>
-                        <div class="swiper_btn_active_prev"></div>
-                    </div>
+  <section id="complex" class="steps">
+    <div id="scroll-wrap">
+      <div id="progress_bar"></div>
+    </div>
+    <h2 class="step-title">Мы работаем в комплексе</h2>
+    <h3 class="step-subtitle">
+      чтобы Вы не тратили время на поиск и организацию множества подрядчиков
+    </h3>
+    <article class="step_one">
+      <div class="swiper-container img_swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="slider slide_one"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider slide_two"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider slide_three"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider slide_four"></div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="step_about">
+        <div class="step_about_header">
+          <div class="step_header title_row">
+            <span class="step_icon">Шаг №1</span>
+            <h2 class="title_step_block">Подготовительные работы</h2>
+          </div>
+          <p class="subtitle-step-block">
+            Мы осматриваем здание, делаем замеры и проверяем наличие визуально
+            заметных дефектов: трещин, коррозии, повреждения фундамента и т.д.
+          </p>
+        </div>
+        <div class="person_coment">
+          <img src="./img/manInLink.png" alt="person" />
+          <blockquote>
+            <q>
+              “Задача этого этапа получить максимально полное представление о
+              конструкции здания, условиях его эксплуатации и возможных слабых
+              местах“</q>
+          </blockquote>
+          <div class="author">
+            АЛЕКСЕЙ, обследователь и главный инженер проектов
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="step_two">
+      <div class="container">
+        <div class="step_about_header title_column">
+          <span class="step_icon">Шаг №2</span>
+          <h2 class="title_step_block">
+            Детальное инструментальное обследование
+          </h2>
+          <p class="subtitle-step-block">
+            Мы понимаем насколько важны сроки и сколько может стоить день
+            задержки. Поэтому Вы никогда не услышите от нас слов “надо подождать
+            пару дней, пока освободится арендное оборудование” - мы
+            укомплектованы всем необходимым
+          </p>
+        </div>
+        <!-- <div class="swiper-products"> -->
+        <div class="slider-product-wrp">
+          <button class="btn-prev-product"></button>
+          <button class="btn-next-product"></button>
+          <div class="slider-product">
+            <div class="products">
+              <figure>
+                <div class="product-content">
+                  <div class="product_image"><img src="./img/item_1.png" alt=""> </div>
+                  <figcaption class="product_name">Локатор арматуры “Profoscope”</figcaption>
                 </div>
+              </figure>
             </div>
-        </div> -->
-	</section>
+            <div class="products">
+              <figure>
+                <div class="product-content">
+                  <div class="product_image"><img src="./img/item_2.png" alt=""> </div>
+                  <figcaption class="product_name">Локатор арматуры “Profoscope”</figcaption>
+                </div>
+              </figure>
+            </div>
+            <div class="products">
+               <figure>
+                <div class="product-content">
+                  <div class="product_image"><img src="./img/item_3.png" alt=""> </div>
+                  <figcaption class="product_name">Локатор арматуры “Profoscope”</figcaption>
+                </div>
+              </figure>
+            </div>
+            <div class="products">
+               <figure>
+                <div class="product-content">
+                  <div class="product_image"><img src="./img/item_4.png" alt=""> </div>
+                  <figcaption class="product_name">Локатор арматуры “Profoscope”</figcaption>
+                </div>
+              </figure>
+            </div>
+          </div>
 
-	<section class="price">
-		<div class="container">
-			<article class="price_content">
-				<h2>Цена железная</h2>
-				<h3 class="block-title">больше не возьмем ни копейки</h3>
-				<p>“Большинство предпринимателей работают по принципу <br> “назову смешную цену и невыполнимые сроки, а
-					потом им
-					будет некуда деваться” . <br> <br> Мы работаем иначе - сразу <span>называем справедливую цену и
-						реальные даты. И мы
-						гарантируем</span> , что ни цена, ни сроки не вырастут в процессе . <br> <br> С нами Вы
-					получаете прогнозируемый результат:
-					если мы говорим “сделаем за 10 дней”, значит уложимся в 10 дней и ни минутой позже.”</“Большинство>
-				</p>
+        </div>
+      </div>
+      </div>
 
-				<div class="video_message">
-					<a data-fancybox href="https://www.youtube.com/watch?v=SkCKNdqkjbA" class="video-speak"></a>
-					<div class="boss">
-						<h3>Юрий крупенько,</h3>
-						<h4>Руководитель</h4>
-					</div>
-				</div>
+    </article>
+    <article class="step_three">
+      <div class="step_three_content">
+        <div class="step_about_header">
+          <div class="step_header">
+            <span class="step_icon">Шаг №3</span>
+            <h2 class="title_step_block">Обработка полученных данных</h2>
+          </div>
+          <p class="subtitle-step-block">
+            Детальный отчет с
+            <a class="step_three_result" href="#" target="_blank">результатами обследования</a>
+            <br />
+            Вы получите через 7 дней. И на его основании сможете определить
+            судьбу объекта и прогнозировать затраты
+          </p>
+          <ul class="step_three_list">
+            <li>
+              Мы оценим техническое состояние объекта и присвоим ему категорию
+            </li>
+            <li>
+              Объясним причины появления дефектов и повреждений в конструкциях
+            </li>
+            <li>
+              Сформируем техзадание на проектирование мероприятий по
+              восстановлению, усилению или ремонту конструкций, оборудования и
+              сетей
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="step_three_pic"></div>
+    </article>
+  </section>
+  <section class="present">
+    <div class="container">
+      <article class="present_content">
+        <div class="present_description">
+          <h2 class="block-title">
+            Закажите комплексное обследование и получите тепловизионную съемку
+            <span style="color: #fee040; white-space: nowrap;" >в подарок</span>
+          </h2>
+        </div>
+        <div class="present_description">
+          <p>
+            Мы первая в Беларуси компания в составе которой есть
+            аккредитованная тепловизионная лаборатория. <br />
+            <br />
+            Наши аттестованные термографисты найдут утечки тепла, определят
+            скрытые дефекты конструкции и подберут систему утепления, которую
+            выдержат стены.
+          </p>
+        </div>
+        <div class="present_description third_block">
+          <button class="offer_btn order_present">
+            <span id="downl_img"> Получить коммерческое</span>
+          </button>
+          <p class="btn_function">
+            Отправьте техзадание и получите коммерческое предложение в течение
+            15 минут
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section id="team" class="team">
+    <div class="container">
+      <div class="team-content">
+        <div class="team_logo">команда</div>
+        <div class="slider-for-wrp">
+          <div class="slider-for">
+            <div class="picSlideAlone">
+              <img src="./img/doc_1.jpg" alt="doc1" />
+            </div>
 
-			</article>
-		</div>
-	</section>
-	<section class="reviews">
-		<div class="container">
-			<article class="reviews_content">
-				<h3>отзывы</h3>
-				<h2 class="block-title">Каждый второй клиент приходит к нам по рекомендации</h2>
-				<p class="subtitle-step-block">За 2018 год мы обследовали более 100 антенн, 800 труб и 500 зданий. Мы
-					работали для БОТ, Бэст, Huawei, МТС, фабрики “Алеся” и многих других требовательных клиентов. И вот,
-					что они пишут о нас:</p>
-				<div class="certificates">
-					<figure class="letter">
-						<a data-lightbox="letter" href="./img/letter_huawei.jpg">
-							<img src=".//img/letter_huawei.jpg" alt="Huawei">
-						</a>
-						<figcaption>ООО «Хуавей Беларусь»</figcaption>
-					</figure>
-					<figure class="letter">
-						<a data-lightbox="letter" href="./img/letter_huawei.jpg">
-							<img src=".//img/letter_huawei.jpg" alt="Huawei">
-						</a>
-						<figcaption>ЗАО «БеСТ»</figcaption>
-					</figure>
-					<figure class="letter">
-						<a data-lightbox="letter" href="./img/letter_huawei.jpg">
-							<img src=".//img/letter_huawei.jpg" alt="Huawei">
-						</a>
-						<figcaption>ОАО «Алеся»</figcaption>
-					</figure>
-					<figure class="letter">
-						<a data-lightbox="letter" href="./img/letter_huawei.jpg">
-							<img src=".//img/letter_huawei.jpg" alt="Huawei">
-						</a>
-						<figcaption>СООО «Мобильные ТелеСистемы»</figcaption>
-					</figure>
-				</div>
-				<button class="offer_btn pleasure_btn"><span id="look_img">смотреть все благодарности (549
-						шт.)</span></button>
+            <div class="picSlideAlone">
+              <img src="./img/doc_2.jpg" alt="doc2" />
+            </div>
+            <div class="picSlideAlone">
+              <img src="./img/doc_1.jpg" alt="doc1" />
+            </div>
 
-			</article>
-		</div>
-	</section>
-	<section class="knowledge_price">
-		<div class="container">
-			<article class="knowledge_price_content">
-				<h2 class="block-title"> <span style="color: #FEE040;">Узнайте точную стоимость</span> обследования
-					Вашего объекта</h2>
-				<p class="subtitle-step-block">Отправьте нам техзадание, ответив на несколько вопросов, и Вы получите
-					коммерческое предложение в течении 10-15 минут</p>
-				<button class="offer_btn know_price"> <span id="arrow_img">Узнать стоимость обследования</span></button>
-			</article>
-		</div>
-	</section>
-	<footer class="footer">
-		<div class="container">
-			<div class="footer_content">
-				<div class="rights">
-					<p>
-						2016-2019 ООО "Инженерная Диагностика"<br> Все права защищены. Бренд упакован <span
-							style="color: #2F80ED; text-decoration: underline;">Digital Butlers</span>
-					</p>
-				</div>
-				<div class="footer_contacts">
-					<div class="contacts_email">
-						<h4 class="footer-links-title footer-links-title-email">Пишите нам на email</h4>
-						<a class="email_foter_link footer_links "
-							href="mailto:info@diagnistics.by">info@diagnistics.by</a>
-					</div>
-					<div class="contacts_tel">
-						<h4 class="footer-links-title footer-links-title-tel">Есть вопросы? Звоните!</h4>
-						<a class="tel_link footer_links" href="tel:+375294564545">+375 (29) 456-45-45</a>
-					</div>
-					<div class="contacts_home">
-						<h4 class="footer-links-title footer-links-title-home">Заходите в гости</h4>
-						<a class="email_footer_link footer_links "
-							href="https://yandex.by/maps/157/minsk/house/Zk4YcwFgS0AOQFtpfXVxcX1lYw==/?ll=27.560603%2C53.900284&sll=27.561481%2C53.902496&source=wizgeo&sspn=1.972046%2C0.688528&utm_medium=maps-desktop&utm_source=serp&z=18.8">г.
-							Минск, ул. Ленина, д.9, пом.3, оф.10 </a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+            <div class="picSlideAlone">
+              <img src="./img/doc_2.jpg" alt="doc2" />
+            </div>
+            <div class="picSlideAlone">
+              <img src="./img/doc_1.jpg" alt="doc1" />
+            </div>
 
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-	<script src="./js/jquery.fancybox.min.js"></script>
-	<script src="./js/swiper.min.js"></script>
-	<script src="./js/lightbox-plus-jquery.min.js"></script>
-	<script src="./js/slick.min.js"></script>
-	<script src="./js/script.js"></script>
+            <div class="picSlideAlone">
+              <img src="./img/doc_2.jpg" alt="doc2" />
+            </div>
+            <div class="picSlideAlone">
+              <img src="./img/doc_1.jpg" alt="doc1" />
+            </div>
+
+            <div class="picSlideAlone">
+              <img src="./img/doc_2.jpg" alt="doc2" />
+            </div>
+          </div>
+        </div>
+
+        <div class="team_goal">
+          <h2 class="block-title">
+            Наша главная ценность - это кадровый состав
+          </h2>
+          <p>
+            За каждым отчетом стоят люди, которые берут на себя колоссальную
+            ответственность. Поэтому
+            <span style="color: black; font-weight: 800;">мы не готовы “просто подписать бумажку”</span>
+            <br />
+            <br />
+            Наши обследователи - это аттестованные ГИПы (главные инженеры
+            проектов), главные конструктора, инженеры, термографисты и
+            альпинисты, которые подтверждают свою квалификацию на стажировках
+            и курсах по 3-4 раза в году.
+          </p>
+
+          <div class="slider-nav-wrp">
+            <button class="btn-prev"></button>
+            <button class="btn-next"></button>
+            <div class="slider-nav">
+
+              <div class="picSlideNav">
+                <a data-lightbox="docs" href="./img/doc_1.jpg">
+                  <img src="./img/doc_1.jpg" alt="doc1" />
+                </a>
+              </div>
+
+
+              <div class="picSlideNav">
+                <a data-lightbox="docs" href="./img/doc_2.jpg">
+                  <img src="./img/doc_2.jpg" alt="doc1" />
+                </a>
+              </div>
+
+              <div class="picSlideNav">
+                <a data-lightbox="docs" href="./img/doc_1.jpg">
+                  <img src="./img/doc_1.jpg" alt="doc1" />
+                </a>
+              </div>
+              <div class="picSlideNav">
+                <a data-lightbox="docs" href="./img/doc_2.jpg">
+                  <img src="./img/doc_2.jpg" alt="doc1" />
+                </a>
+              </div>
+              <div class="picSlideNav">
+                <a data-lightbox="docs" href="./img/doc_1.jpg">
+                  <img src="./img/doc_1.jpg" alt="doc1" />
+                </a>
+              </div>
+
+              <div class="picSlideNav">
+                <a data-lightbox="docs" href="./img/doc_2.jpg">
+                  <img src="./img/doc_2.jpg" alt="doc2" />
+                </a>
+              </div>
+
+              <div class="picSlideNav">
+                <a data-lightbox="docs" href="./img/doc_1.jpg">
+                  <img src="./img/doc_1.jpg" alt="doc1" />
+                </a>
+              </div>
+              <div class="picSlideNav">
+                <a data-lightbox="docs" href="./img/doc_2.jpg">
+                  <img src="./img/doc_2.jpg" alt="doc1" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <section id="price" class="price">
+    <div class="container">
+      <article class="price_content">
+        <h2>Цена железная</h2>
+        <h3 class="block-title">больше не возьмем ни копейки</h3>
+        <p>“Большинство предпринимателей работают по принципу “назову смешную цену и невыполнимые сроки, а
+          потом им
+          будет некуда деваться” . <br> <br>  Мы работаем иначе - сразу <span>называем справедливую цену и
+            реальные даты. И мы
+            гарантируем</span> , что ни цена, ни сроки не вырастут в процессе . <br> <br> С нами Вы
+          получаете прогнозируемый результат:
+          если мы говорим “сделаем за 10 дней”, значит уложимся в 10 дней и ни минутой позже.”</“Большинство>
+        </p>
+
+        <div class="video_message">
+          <a data-fancybox href="https://www.youtube.com/watch?v=SkCKNdqkjbA" class="video-speak"></a>
+          <div class="boss">
+            <h3>Юрий крупенько,</h3>
+            <h4>Руководитель</h4>
+          </div>
+        </div>
+
+      </article>
+    </div>
+  </section>
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <article class="reviews_content">
+        <h3>отзывы</h3>
+        <h2 class="block-title">Каждый второй клиент приходит к нам по рекомендации</h2>
+        <p class="subtitle-step-block">За 2018 год мы обследовали более 100 антенн, 800 труб и 500 зданий. Мы
+          работали для БОТ, Бэст, Huawei, МТС, фабрики “Алеся” и многих других требовательных клиентов. И вот,
+          что они пишут о нас:</p>
+        <div class="certificates">
+          <figure class="letter">
+            <a data-lightbox="letter" href="./img/letter_huawei.jpg">
+              <img src=".//img/letter_huawei.jpg" alt="Huawei">
+            </a>
+            <figcaption>ООО «Хуавей Беларусь»</figcaption>
+          </figure>
+          <figure class="letter">
+            <a data-lightbox="letter" href="./img/letter_huawei.jpg">
+              <img src=".//img/letter_huawei.jpg" alt="Huawei">
+            </a>
+            <figcaption>ЗАО «БеСТ»</figcaption>
+          </figure>
+          <figure class="letter">
+            <a data-lightbox="letter" href="./img/letter_huawei.jpg">
+              <img src=".//img/letter_huawei.jpg" alt="Huawei">
+            </a>
+            <figcaption>ОАО «Алеся»</figcaption>
+          </figure>
+          <figure class="letter">
+            <a data-lightbox="letter" href="./img/letter_huawei.jpg">
+              <img src=".//img/letter_huawei.jpg" alt="Huawei">
+            </a>
+            <figcaption>СООО «Мобильные ТелеСистемы»</figcaption>
+          </figure>
+        </div>
+        <button class="offer_btn pleasure_btn"><span id="look_img">смотреть все благодарности <span style="word-wrap:nowrap;">(549шт.)</span></span></button>
+
+      </article>
+    </div>
+  </section>
+  <section class="knowledge_price">
+    <div class="container">
+      <article class="knowledge_price_content">
+        <h2 class="block-title"> <span style="color: #FEE040;">Узнайте точную стоимость</span> обследования
+          Вашего объекта</h2>
+        <p class="subtitle-step-block">Отправьте нам техзадание, ответив на несколько вопросов, и Вы получите
+          коммерческое предложение в течении 10-15 минут</p>
+        <button class="offer_btn know_price"> <span id="arrow_img">Узнать стоимость обследования</span></button>
+      </article>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_content">
+        <div class="rights">
+          <p>
+            2016-2020 ООО "Инженерная Диагностика"<br> Все права защищены. Бренд упакован <span
+              style="color: #2F80ED; text-decoration: underline; white-space: nowrap;">Digital Butlers</span>
+          </p>
+        </div>
+        <div class="footer_contacts">
+          <div class="contacts_email">
+            <h4 class="footer-links-title footer-links-title-email">Пишите нам на email</h4>
+            <a class="email_foter_link footer_links " href="mailto:info@diagnistics.by">info@diagnistics.by</a>
+          </div>
+          <div class="contacts_tel">
+            <h4 class="footer-links-title footer-links-title-tel">Есть вопросы? Звоните!</h4>
+            <a class="tel_link footer_links" href="tel:+375294564545">+375 (29) 456-45-45</a>
+          </div>
+          <div class="contacts_home">
+            <h4 class="footer-links-title footer-links-title-home">Заходите в гости</h4>
+            <a class="home_footer_link footer_links "
+              href="https://yandex.by/maps/157/minsk/house/Zk4YcwFgS0AOQFtpfXVxcX1lYw==/?ll=27.560603%2C53.900284&sll=27.561481%2C53.902496&source=wizgeo&sspn=1.972046%2C0.688528&utm_medium=maps-desktop&utm_source=serp&z=18.8">г.
+              Минск, ул. Ленина, д.9, пом.3, оф.10 </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="./js/jquery.fancybox.min.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/lightbox-plus-jquery.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
