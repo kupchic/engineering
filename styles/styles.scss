@@ -489,8 +489,8 @@ label[for="menu_btn"] {
         background-image: url(../img/list_icon.png);
         width: 30px;
         height: 30px;
-        top: 50%;
-        transform: translateY(-50%);
+        // top: 50%;
+        // transform: translateY(-50%);
         left: -50px;
         background-size: contain;
         background-repeat: no-repeat;
@@ -515,7 +515,7 @@ label[for="menu_btn"] {
 .services_content {
   text-align: center;
 
-  h2 {
+  >h2 {
     color: #fff;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -553,7 +553,6 @@ label[for="menu_btn"] {
 
 .img {
   width: 100%;
-  height: 180px;
   position: relative;
   border-radius: 3px;
 
@@ -584,7 +583,7 @@ label[for="menu_btn"] {
   color: #ffffff;
   font-family: $proxima;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .work_description {
@@ -629,7 +628,7 @@ label[for="menu_btn"] {
   width: 100%;
   position: relative;
   text-align: center;
-  padding-top: 105px;
+  padding-top: 100px;
 
   .step-title {
     font-family: "Bebas Neue";
@@ -745,6 +744,7 @@ label[for="menu_btn"] {
     opacity: 0.7;
     font-family: $proxima;
     padding-left: 10px;
+    text-align: justify;
   }
 }
 
@@ -893,6 +893,7 @@ label[for="menu_btn"] {
       font-family: $proxima;
       position: relative;
       margin-bottom: 15px;
+      text-align: justify;
 
       &:before {
         content: "";
@@ -900,8 +901,6 @@ label[for="menu_btn"] {
         background-image: url(../img/list_icon.png);
         width: 30px;
         height: 30px;
-        top: 50%;
-        transform: translateY(-50%);
         left: -50px;
         background-size: contain;
         background-repeat: no-repeat;
@@ -1269,7 +1268,7 @@ label[for="menu_btn"] {
 .pleasure_btn {
   max-width: 445px;
   width: 100%;
-  margin-top: 50px;
+  margin: 50px auto 0;
 }
 
 .knowledge_price {
@@ -1305,6 +1304,7 @@ label[for="menu_btn"] {
 .know_price {
   width: 100%;
   max-width: 400px;
+  margin: 0;
 }
 
 .footer {
@@ -1353,6 +1353,7 @@ label[for="menu_btn"] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 0px;
   .footer-links-title {
     display: inline-block;
     padding-left: 20px;
@@ -1448,7 +1449,6 @@ label[for="menu_btn"] {
   }
   .footer_contacts {
     order: 1;
-    margin: 0 auto 30px;
     justify-content: center;
     &:nth-child(n) {
       > div {
@@ -1723,6 +1723,7 @@ label[for="menu_btn"] {
     flex-direction: column;
     .boss {
       align-self: flex-end;
+      margin-top: 20px;
     }
   }
 }
@@ -1747,7 +1748,7 @@ label[for="menu_btn"] {
   }
 
   #scroll-wrap {
-    top: -30px;
+    top: -100px;
   }
 
   .description {
@@ -1874,6 +1875,17 @@ label[for="menu_btn"] {
     text-align: justify;
   }
   .home_footer_link {
+    font-size: 14px;
+  }
+  .scroll-block{
+    grid-template-columns: repeat(5,285px);
+    // grid-template-rows: repeat(1,333px);
+    gap: 60px;
+  }
+  .work_name{
+    font-size: 18px;
+  }
+  .work_description{
     font-size: 14px;
   }
 }
